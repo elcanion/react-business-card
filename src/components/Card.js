@@ -1,11 +1,5 @@
 import React from "react";
-import Header from "./Header";
-import Content from "./Content";
 import "../style.css"
-import Footer from "./Footer";
-import { client } from "../client";
-
-import photo from "../photo-1.png"
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
 import { faFacebookSquare, faGithubSquare, faInstagramSquare, faLinkedin, faTwitterSquare } from "@fortawesome/free-brands-svg-icons";

@@ -9,7 +9,9 @@ class App extends React.Component{
     }
 
     componentDidMount() {
-        client.getEntries()
+        client.getEntries({
+            content_type: "businessCard",
+        })
         .then((response) => {
             console.log(response)
             this.setState({
